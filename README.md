@@ -14,7 +14,7 @@ docker-compose down
 ## start delivery service spring boot application
 
 
-## send delivery request from postmon
+## send new order request from postmon
 
 header: POST
 
@@ -31,6 +31,6 @@ body:
 ## read messages from terminal
 
 docker exec -it broker kafka-console-consumer \
-                    --bootstrap-server broker:9092 \
-                    --topic orders \
-                    --from-beginning
+    --bootstrap-server broker:9092 \
+    --topic orders \
+    --from-beginning
