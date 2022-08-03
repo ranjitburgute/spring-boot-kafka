@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+    weather-app:
+        build: .
+        image: rburgute/weather-app:1.0
+        ports:
+            - "8080:8080"

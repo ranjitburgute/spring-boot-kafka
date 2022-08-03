@@ -1,0 +1,36 @@
+{
+  "dt": 1659549600,
+  "main": {
+    "temp": 299.31,
+    "feels_like": 299.31,
+    "temp_min": 299.3,
+    "temp_max": 299.31,
+    "pressure": 1011,
+    "sea_level": 1011,
+    "grnd_level": 1008,
+    "humidity": 63,
+    "temp_kf": 0.01
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03d"
+    }
+  ],
+  "clouds": {
+    "all": 40
+  },
+  "wind": {
+    "speed": 4.27,
+    "deg": 255,
+    "gust": 7.04
+  },
+  "visibility": 10000,
+  "pop": 0,
+  "sys": {
+    "pod": "d"
+  },
+  "dt_txt": "2022-08-03 18:00:00"
+}

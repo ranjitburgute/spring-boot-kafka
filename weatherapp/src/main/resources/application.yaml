@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+endpoint:
+  url: api.openweathermap.org/data/2.5/forecast
+  apiKey: d2929e9483efc82c82c32ee7e02d563e
+
+
